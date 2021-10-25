@@ -1,20 +1,31 @@
 .home-container{
-    background-image: url('https://videohive.img.customer.envatousercontent.com/files/ab774cfd-7e65-4933-a6bc-71cd9234c188/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=3a384acbed77bc13bc6c8b2ac5990c47');
+    background-image: url('https://i.pinimg.com/originals/15/71/05/15710504898649f93190a5626de1a74c.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
     background-position: center;
+    padding: 100px;
   }
   .home-inner-container{
-    margin-top: 2%;
+    /* margin-top: 2%; */
     margin-bottom: 2%;
     margin-left: 3%;
     margin-right: 3%;
     border-style: solid;
     border-width: 2px;
-    border-color:black;
+    border-color:rgb(253, 253, 253);
     border-radius: 15px;
   }
+
+  .portfolio-container{
+    align-items: center;
+    padding-top: 50px;
+    padding-left:50px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+
   /* .portfolio {
     background-size: contain;
     padding: 20px;

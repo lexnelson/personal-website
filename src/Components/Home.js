@@ -3,7 +3,7 @@ import './styles/Home.css'
 
 function Home() {
 
-    const projects = [{title: 'Hidden Trails', photo: 'empty so far', notes: ['note 1', 'note2'], github: 'githublink', youtube: 'youtubelink'}]
+    const projects = [{title: 'Hidden Trails', photo: 'empty so far', notes: ['note 1', 'note2'], github: 'githublink', youtube: 'youtubelink'}, {title: 'Hidden Trails', photo: 'empty so far', notes: ['note 1', 'note2'], github: 'githublink', youtube: 'youtubelink'}, {title: 'Hidden Trails', photo: 'empty so far', notes: ['note 1', 'note2'], github: 'githublink', youtube: 'youtubelink'}]
     return (
         <div className='home-container'>
             <div className='home-inner-container'>
@@ -14,7 +14,12 @@ function Home() {
                         return( <ProjectCard proj={proj}/>)
                     })}
                 </div>
+                <br/>
+                <div>
+                <h3>Get in touch!</h3>
             </div>
+            </div>
+            
         </div>
     )
 }

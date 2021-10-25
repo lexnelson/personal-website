@@ -62,31 +62,23 @@
   height: 100px;
   position: sticky;
   top: 0px;
-  background-color: teal;
+  background-color: rgb(0, 0, 0);
+  border-bottom-width: 2px;
+  border-style: solid;
+  border-bottom-color: rgb(245, 245, 245);
 }
 .footer{
   width: 100%;
   height: 90px;
-  position: absolute;
+  align-items: center;
+  position: fixed;
   bottom: 0px;
-  background-color: rgb(129, 72, 151);
+  color:rgb(245, 245, 245);
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: rgb(245, 245, 245);
 }
 
-.home-container{
-  margin-top: 0px;
-  background-image: url('https://videohive.img.customer.envatousercontent.com/files/ab774cfd-7e65-4933-a6bc-71cd9234c188/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=3a384acbed77bc13bc6c8b2ac5990c47');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-}
-.home-inner-container{
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 3%;
-  margin-right: 3%;
-  border-style: solid;
-  border-width: 2px;
-  border-color:black;
-  border-radius: 15px;
-}
